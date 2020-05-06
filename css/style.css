@@ -1,0 +1,261 @@
+.row{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 767px){
+    body{
+        background-color: #080808;
+    }
+
+    header h1{
+        text-align: center;
+        font-family: "Swis721 Blk BT";
+        color: #1E90FF;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    main p{
+        color: #eee;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 15%;
+        margin-left: 20.5%;
+        margin-right: 65%;
+        border-radius: 10px;
+    }
+
+    main input{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        height: 7vw;
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    main input:active{
+        border-color: #1E90FF;
+    }
+
+    #btn{
+        position: relative;
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    #btnn{
+        background-color: #080808;
+        color: #1E90FF;
+        border-color: #1E90FF;
+        font-family: "Swis721 Blk BT";
+    }
+
+    #btnn:hover{
+        background-color: #00BFFF;
+    }
+
+    #btnn:active{
+        background-color: #00BFFF;
+    }
+    
+    #btnRegister{
+        position: relative;
+        top: 17vw;
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    #btnnR{
+        background-color: #080808;
+        color: #1E90FF;
+        border-color: #1E90FF;
+        font-family: "Swis721 Blk BT";
+    }
+
+    #btnnR:hover{
+        background-color: #00BFFF;
+    }
+
+    #btnnR:active{
+        background-color: #00BFFF;
+    }
+
+    main hr{
+        position: relative;
+        top: 15vw;
+    }
+
+    #btnloged{
+        position: relative;
+        top: 3vw;
+        width: 26%;
+        left: 37%;
+        height: 3vw;
+    }
+
+    #btnLoged{
+        background-color: #080808;
+        color: #1E90FF;
+        border-color: #1E90FF;
+        height: 12vw;
+        border-radius: 17px;
+        font-family: "Swis721 Blk BT";
+        width: 100%;
+    }
+
+    #btnLoged:active{
+        background-color: #00BFFF;
+    }
+
+    h1{
+        text-align: center;
+        color: #1E90FF;
+        font-family: "Swis721 Blk BT";
+    }
+
+    .alert{
+        color:red;
+        text-align:center;
+        margin-top:15%;
+        font-family: "Swis721 Blk BT";
+    }
+
+    .alertcerto{
+        color: #1E90FF;
+        text-align: center;
+        font-family: "Swis721 Blk BT";
+        margin-top: 15%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    body{
+        background-color: #080808;
+    }
+
+    header h1{
+        font-family: "Swis721 Blk BT";
+        color: #1E90FF;
+        text-align: center;
+    }
+
+    main p{
+        color: #eee;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 15%;
+        margin-left: 34%;
+        margin-right: 30%;
+    }
+
+    main input{
+        text-align: center;
+        display: block;
+        margin-left: 33.5%;
+        margin-right: 33.5%;
+        width: 33%;
+        height: 4vw;
+        border-radius: 17px;
+    }
+
+    main input:hover{
+        border-color: #1E90FF;
+    }
+    
+    #btn{
+        position: relative;
+        width: 30%;
+        margin-left: 47%;
+        margin-right: 3%;
+        height: 3vw;
+    }
+
+    #btnn{
+        background-color: #080808;
+        color: #1E90FF;
+        border-color: #1E90FF;
+        height: 3.5vw;
+        font-family: "Swis721 Blk BT";
+    }
+
+    #btnn:hover{
+        background-color: #00BFFF;
+    }
+
+    #btnn:active{
+        background-color: #32CD32;
+    }
+
+    #btnRegister{
+        position: relative;
+        top: 3vw;
+        width: 30%;
+        left: 23.5%;
+        height: 3vw;
+    }
+
+    #btnnR{
+        background-color: #080808;
+        color: #1E90FF;
+        border-color: #1E90FF;
+        height: 3.5vw;
+        font-family: "Swis721 Blk BT";
+    }
+
+    #btnnR:hover{
+        background-color: #00BFFF;
+    }
+
+    #btnnR:active{
+        background-color: #32CD32;
+    }
+
+    main hr{
+        position: relative;
+        top: 6vw;
+    }
+
+    #btnloged{
+        position: relative;
+        top: 3vw;
+        width: 12%;
+        left: 44%;
+        height: 3vw;
+    }
+
+    #btnLoged{
+        background-color: #080808;
+        color: #1E90FF;
+        border-color: #1E90FF;
+        height: 7vw;
+        border-radius: 17px;
+        font-family: "Swis721 Blk BT";
+        width: 100%;
+    }
+
+    #btnLoged:hover{
+        background-color: #00BFFF;
+    }
+
+    h1{
+        text-align: center;
+        color: #1E90FF;
+        font-family: "Swis721 Blk BT";
+    }  
+
+    .alert{
+        color:red;
+        text-align:center;
+        font-family: "Swis721 Blk BT";
+    }
+
+    .alertcerto{
+        color: #1E90FF;
+        text-align: center;
+        font-family: "Swis721 Blk BT";
+    }
+}
